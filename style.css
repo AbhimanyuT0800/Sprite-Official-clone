@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: #009b4e;
+    height: 100px;
+    width: 100%;
+}
+.nav-bar{
+    height: 100%;
+    width: 64%;
+    background-color: #009b4e;
+    margin :-74px 234px;
+}
+.logo{
+    padding-left: 41px;
+    padding-top: 20px;
+    min-width: 25px;
+    max-height: 50px;
+}
+.nav-text{
+    color: white;
+    font-size: 14px;
+    font-weight: 1000;
+    padding-top: ;
+
+}
+
+
