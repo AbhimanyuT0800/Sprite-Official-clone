@@ -6,14 +6,14 @@
 
 .header{
     background-color: #009b4e;
-    height: 100px;
+    height: 92px;
     width: 100%;
 }
 .nav-bar{
     height: 100%;
-    width: 64%;
+    width: 44%;
     background-color: #009b4e;
-    margin :-74px 234px;
+    margin :-74px 192px;
 }
 .logo{
     padding-left: 41px;
@@ -21,12 +21,46 @@
     min-width: 25px;
     max-height: 50px;
 }
+
 .nav-text{
     color: white;
     font-size: 14px;
-    font-weight: 1000;
-    padding-top: ;
+    font-weight: 900;
+    padding-top: 36px;
+    font-style: Fantasy;
+    padding-left: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+.nav-text:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 37px;
+    text-decoration-thickness: 5px;
+}
+.social-logo{
+    padding-left: 70%;
+    padding-top: 20px;
 }
 
 
+
+#fb{
+    font-size: 22px;
+    height: 40px;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    border-radius:70% !important;
+    
+   
+    
+}
+#fb:hover{
+    cursor: pointer;
+    color: black;
+    border-radius: 50%;
+}
+.fb{
+    border-radius: 50%;
+}
