@@ -1,13 +1,23 @@
 *{
+    
     margin: 0;
     padding: 0;
 }
 
+/* html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; */
 
 .header{
     background-color: #009b4e;
     height: 92px;
     width: 100%;
+    position: fixed;
+    margin-top: -11px;
 }
 .nav-bar{
     height: 100%;
@@ -36,7 +46,7 @@
     color: black;
     cursor: pointer;
     text-decoration: underline;
-    text-underline-offset: 37px;
+    text-underline-offset: 34px;
     text-decoration-thickness: 5px;
 }
 .social-logo{
@@ -63,4 +73,26 @@
 }
 .fb{
     border-radius: 50%;
+}
+.left-card{
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    background: black;
+    margin: 10px 0px;
+}
+.bottle{
+    height: 86%;
+    width: 45%;
+    padding: 84px 20px 20px ;
+}
+.right-card-text{
+    position: absolute;
+    text-align: start;
+    color: #009b4e;
+    padding: 117px 47%;
+    font-size: 64px;
+    width: 100%;
+    
+    
 }
