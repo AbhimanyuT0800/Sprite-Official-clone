@@ -3,14 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
-/* html,
+ 
+html,
 body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; */
+    margin:0px ;
+    padding-right: 100px;
+    overflow-x: hidden; 
+} 
 
 .header{
     background-color: #009b4e;
@@ -20,10 +21,12 @@ body {
     margin-top: -11px;
 }
 .nav-bar{
+    position: relative;
     height: 100%;
     width: 44%;
     background-color: #009b4e;
     margin :-74px 192px;
+    z-index: 1;
 }
 .logo{
     padding-left: 41px;
@@ -50,23 +53,27 @@ body {
     text-decoration-thickness: 5px;
 }
 .social-logo{
-    padding-left: 70%;
+    padding-left: 73%;
     padding-top: 20px;
 }
-
-
-
-#fb{
+#logo-1{
     font-size: 22px;
     height: 40px;
     width: 50px;
     color: rgb(255, 255, 255);
-    border-radius:70% !important;
-    
-   
+    border-radius: 50% !important;
     
 }
-#fb:hover{
+
+#logo{
+    font-size: 22px;
+    height: 40px;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 50% !important; 
+     
+}
+#logo:hover{
     cursor: pointer;
     color: black;
     border-radius: 50%;
@@ -76,23 +83,68 @@ body {
 }
 .left-card{
     height: 600px;
-    width: 100%;
+    width: 110%;
     padding-top: 100px;
     background: black;
     margin: 10px 0px;
+    z-index: 0;
 }
 .bottle{
-    height: 86%;
-    width: 45%;
-    padding: 84px 20px 20px ;
+    height: 94%;
+    width: 40%;
+    padding: 31px 0px 20px;
+    margin: 0px -34px 7px -31px;
 }
 .right-card-text{
+    position:absolute;
+    text-align: start;
+    color: #009b4e;
+    padding: 69px 40%;
+    font-size: 91px;
+    width: 100%;
+    font-family: system-ui;
+    z-index: 0;    
+}
+.img-text{
     position: absolute;
     text-align: start;
     color: #009b4e;
-    padding: 117px 47%;
-    font-size: 64px;
-    width: 100%;
+    padding: 285px 40%;
+    width: 50%;
+    height: 94px;
+}
+h1{
+    line-height: 90%;
+}
+.explor-btn{
+    position: absolute;
+    margin: 31% 40%;
+    width: 196px;
+    height: 46px;
+    background:  rgb(255,209,0);
+    font-weight:900;
+    border: none;
     
+}
+.explor-btn:hover{
+    cursor: pointer;
+    background: black;
+    text-emphasis-color: white;
+}
+.explor-text{
+    color: black;
+}
+.explor-text:hover{
+    color: white;
+}
+.cookie-img{
     
+    height: 49px;
+    width: 52px;
+    padding: 37% 12px 10px ;
+    position: fixed;
+    
+}
+.cookie-img:hover{
+    cursor: pointer;
 }
