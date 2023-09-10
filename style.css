@@ -310,8 +310,8 @@ h1 {
 
 .sec-4-img {
     width: 139px;
-    height: 74px;
-    margin: 101px 210px;
+    height: 65px;
+    margin: 84px 201px;
     cursor: pointer;
 }
 
@@ -319,11 +319,12 @@ h1 {
     position: absolute;
     color: white;
     left: 473px;
-    top: 59px;
+    top: 53px;
     font-family: fantasy;
-    width: 143px;
-    font-size: 18px;
+    width: 137px;
+    font-size: 14px;
     height: 8px;
+    letter-spacing: 1px;
 }
 
 .connect-logo {
@@ -331,8 +332,8 @@ h1 {
     height: 34px;
     width: 117px;
     background: #009b4e;
-    top: 49%;
-    left: 36%;
+    top: 44%;
+    left: 35%;
     display: flex;
     justify-content: space-between;
 }
