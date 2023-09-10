@@ -1,24 +1,32 @@
-*{
+
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital,wght@1,600&family=Oswald:wght@500&display=swap');
+
+  *{
     
     margin: 0;
     padding: 0;
 }
  
+
 html,
 body {
     width: 100%;
     height: 100%;
     margin:0px ;
     padding-right: 100px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    
+    
 } 
 
 .header{
+    
     background-color: #009b4e;
     height: 92px;
     width: 100%;
     position: fixed;
     margin-top: -11px;
+    z-index: 999;
 }
 .nav-bar{
     position: relative;
@@ -78,6 +86,9 @@ body {
     color: black;
     border-radius: 50%;
 }
+.logo-td{
+    border-radius: 50%;
+}
 .fb{
     border-radius: 50%;
 }
@@ -101,7 +112,7 @@ body {
     color: #009b4e;
     padding: 69px 40%;
     font-size: 91px;
-    width: 100%;
+    width: 700px;
     font-family: system-ui;
     z-index: 0;    
 }
@@ -110,7 +121,7 @@ body {
     text-align: start;
     color: #009b4e;
     padding: 285px 40%;
-    width: 50%;
+    width: 700px;
     height: 94px;
 }
 h1{
@@ -137,14 +148,176 @@ h1{
 .explor-text:hover{
     color: white;
 }
-.cookie-img{
-    
-    height: 49px;
-    width: 52px;
-    padding: 37% 12px 10px ;
+.cookie-img {
+    height: 41px;
+    width: 44px;
+    /* padding: 36% 15px 10px; */
     position: fixed;
-    
+    z-index: 999;
+    border-top: 23px !important;
+    border-radius: 10px;
+    margin: 0;
+    left: 12px;
+    top: 596px;
 }
+  
+  
 .cookie-img:hover{
     cursor: pointer;
 }
+.video-temp{
+    position: absolute;
+    width: 536px;
+    margin: -20px 64px;
+    border:none;
+    clear: both;
+    
+}
+
+.play-button {
+    position: absolute;
+   
+    top: 130%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    width: 62px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: block;
+    clear: right;
+}
+.play-button:hover{
+    transform: scale(1);
+    cursor: pointer !important;
+    
+}
+.chat-icon{
+    top: 154%;
+    right: 684px;
+    position: absolute;
+    clear: both;
+    
+    
+}
+.chat-icon-img{
+    height: 30px;
+    width: 42px;
+    margin: -4px 64px;
+    cursor: pointer;
+}
+.ad-text{
+    font-family: fantasy;   
+    
+    font-size: 64.0px;
+    line-height: 1.0em;
+    color: black;
+    position: absolute;
+    right: 136px;
+    top: 108%;
+}
+.ad-text-2{
+    position: absolute;
+    color: #000;
+    right: 124px;
+    top: 132%;
+    font-family: fantasy;
+    font-size: 27px;
+    
+}
+.shop-btn{
+    position: absolute;
+    right: 527px;
+    top: 152%;
+    width: 137px;
+    height: 32px;
+    background: rgb(255,209,0);
+    font-weight: 900;
+    border: none;
+}
+.section-3{
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    height: 490px;
+    background: white;
+}
+
+
+.ad-text-3{
+    font-family: fantasy;
+    padding: 76px 83px;
+    font-size: 63px;
+    line-height: 1.3;
+    color: rgb(0,150,57);
+}
+.text-bottle{
+    right: 77px;
+    top: -1%;
+    position: absolute;
+}
+.section-4{
+    top: 226%;
+    position: absolute;
+
+    width: 100%;
+    height: 284px;
+    background:   #009b4e;
+
+}
+.sec-4-icon{
+    width: 60%;
+    height:100%;
+    background: #009b4e;
+}
+.sec-4-img{
+    width: 139px;
+    height: 74px;
+    margin: 101px 210px;
+    cursor: pointer;
+}
+.connect-txt{
+     position: absolute;
+    color: white;
+    left: 473px;
+    top: 59px;
+    font-family: fantasy;
+    width: 143px;
+    font-size: 18px;
+    height: 8px;
+}
+.connect-logo{
+    position: absolute;
+    height: 34px;
+    width: 107px;
+    background: #009b4e;
+    top: 49%;
+    left: 36%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-4-text{
+    position: absolute;
+    background: #009b4e;
+    width: 276px;
+    height: 223px;
+    left: 60%;
+    top: 22%;
+}
+.sec-4-ad{
+    position: absolute;
+    color: white;
+    font-family: fantasy;
+    width: 224px;
+    font-size: 15px;
+    height: 8px;
+    line-height: 2;
+    cursor: pointer;
+}
+
