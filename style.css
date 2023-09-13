@@ -59,7 +59,7 @@ td{
 }
 
 .nav-text:hover {
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 34px;
@@ -95,13 +95,6 @@ td{
     border-radius: 50%;
 }
 
-.logo-td {
-    border-radius: 50%;
-}
-
-.fb {
-    border-radius: 50%;
-}
 
 .left-card {
     height: 600px;
@@ -174,7 +167,6 @@ h1 {
     /* padding: 36% 15px 10px; */
     position: fixed;
     z-index: 999;
-    border-top: 23px !important;
     border-radius: 10px;
     margin: 0;
     left: 12px;
@@ -197,7 +189,6 @@ h1 {
 
 .play-button {
     position: absolute;
-
     top: 130%;
     left: 24%;
     transform: translate(-50%, -50%);
@@ -210,14 +201,14 @@ h1 {
     color: white;
     font-size: 36px;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform .2s ease-in-out;
     display: block;
     clear: right;
 }
 
 .play-button:hover {
-    transform: scale(1);
-    cursor: pointer !important;
+    transform: scale(1.2);
+    
 
 }
 
